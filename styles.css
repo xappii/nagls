@@ -9,21 +9,43 @@
   padding: 3px 10px;
 }
 
+.title:hover {
+  color: #7C6593;
+}
+
 .menu-list {
   display: inline-block;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
 }
 
 .menu-list li {
   display: inline-block;
+  margin-left: 20px;
+}
+
+.menu-list a {
+  color: black;
+}
+
+.menu-list a:hover {
+  color: #8A779D;
+  text-decoration: none;
 }
 
 .jumbotron {
   background: url("https://fdrfreebies.s3-us-west-1.amazonaws.com/wp-content/uploads/05.jpg");
   background-size: cover;
   color: #ffffff;
+  padding: 30px 20px;
 }
 
 .jumbotron h1 {
   font-size: 50px;
-  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
