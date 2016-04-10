@@ -1,0 +1,29 @@
+.header-container {
+
+}
+
+.title {
+  display: inline-block;
+  margin: 12px 20px;
+  border-style: solid;
+  padding: 3px 10px;
+}
+
+.menu-list {
+  display: inline-block;
+}
+
+.menu-list li {
+  display: inline-block;
+}
+
+.jumbotron {
+  background: url("https://fdrfreebies.s3-us-west-1.amazonaws.com/wp-content/uploads/05.jpg");
+  background-size: cover;
+  color: #ffffff;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+  margin-left: 20px;
+}
