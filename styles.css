@@ -1,5 +1,26 @@
-.header-container {
+body {
+  min-width: 350px;
+}
 
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #8A779D;
+}
+
+a:focus {
+  text-decoration: none;
+  color: black;
+}
+
+.header-container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
 }
 
 .title {
@@ -12,6 +33,7 @@
 .title:hover {
   color: #7C6593;
 }
+
 
 .menu-list {
   display: inline-block;
@@ -37,15 +59,32 @@
   text-decoration: none;
 }
 
+.breadcrumb {
+  margin-top: 69px;
+  position: relative;
+  left: 5px;
+}
+
 .jumbotron {
   background: url("https://fdrfreebies.s3-us-west-1.amazonaws.com/wp-content/uploads/05.jpg");
   background-size: cover;
   color: #ffffff;
   padding: 30px 20px;
+  margin-top: 69px;
 }
 
 .jumbotron h1 {
   font-size: 50px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.btn-default {
+  border-color: #CA97A0;
+}
+
+.btn-default:hover {
+  background-color: white;
+  color: #8A779D;
+  border-color: #CA97A0;
 }
