@@ -60,9 +60,9 @@ a:focus {
 }
 
 .breadcrumb {
+  padding: 8px 22px;
   margin-top: 69px;
-  position: relative;
-  left: 5px;
+  border-radius: 0px;
 }
 
 .jumbotron {
@@ -87,4 +87,12 @@ a:focus {
   background-color: white;
   color: #8A779D;
   border-color: #CA97A0;
+}
+
+.panel-container {
+  padding: 0 10px;
+}
+
+.col-sm-6 {
+  padding: 0 10px;
 }
